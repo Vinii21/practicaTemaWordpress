@@ -1,4 +1,26 @@
+/* ////////////////////////////////////////// */
+/* Estilos generales CSS */
 :root{
      --fontOpenSand: 'Open Sans', sans-serif;
      --fontOswald: 'Oswald', sans-serif;
- }
+     --fontSize: 16px;
+     --fondo: #f2f2f2;
+     --azul-primario: #5f6ad4;
+     --azul-secundario: #7780da;
+     --gris-oscuro: #3d3d3d;
+     --gris-claro: #909090;
+     --texto: #292929;
+     --verde: #48b04d;
+}
+*{margin: 0; padding: 0;}
+body{
+     background-color: var(--fondo);
+     font-size: var(--fontSize);
+     font-family: var(--fontOpenSand);
+}
+.ad{
+    margin-top: 1.25em; /*sera 16px multiplicado por 1.25 = 20px */
+    margin-bottom: 1.25em; /*sera 16px multiplicado por 1.25 = 20px */
+    text-align: center;
+}
+a{color: var(--azul-primario);}
